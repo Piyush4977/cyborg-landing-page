@@ -1,0 +1,14 @@
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Orbitron',sans-serif;}
+body{background:#050816;color:white;overflow-x:hidden;}
+nav{display:flex;justify-content:space-between;align-items:center;padding:20px 10%;background:#000;border-bottom:1px solid cyan;}
+.logo{color:cyan;text-shadow:0 0 15px cyan;}
+nav ul{display:flex;gap:25px;list-style:none;}
+nav a{text-decoration:none;color:white;}
+.hero{display:flex;justify-content:center;align-items:center;min-height:90vh;padding:50px 10%;}
+.content{flex:1;}
+.content h2{font-size:60px;color:cyan;text-shadow:0 0 20px cyan;}
+.content p{margin:20px 0;font-size:18px;}
+button{padding:15px 35px;border:none;background:cyan;color:black;border-radius:30px;cursor:pointer;}
+.image img{width:450px;border-radius:20px;box-shadow:0 0 30px cyan;}
+.features{display:flex;gap:30px;justify-content:center;padding:80px 10%;flex-wrap:wrap;}
+.card{width:300px;padding:30px;background:#0d1328;border:1px solid cyan;border-radius:20px;}
